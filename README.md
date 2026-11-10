@@ -34,7 +34,9 @@ You get `myclip-sfx.mp4` (picture untouched) and `foley/report.md`: every cue, e
 - CC0 needs no credit, but Openverse does not guarantee licence accuracy. For commercial work, open each sound's source page (listed in the report).
 - Openverse's anonymous limit is about 20 requests a minute and 200 a day.
 - A sound-effects-only track is peaky (about −20 LUFS); set the final loudness in your edit.
-- Tested 2026-11-10 with Claude Code 2.1 on macOS:
+- Tested 2026-11-10 with Claude Code 2.1 on macOS (headless `claude -p`, earshot via its CLI):
+  - a 5 s kung-fu clip: 8 cues, a whoosh 183 ms late and clipping fixed; 46 turns, 9.3 min, about US$2.0 of usage;
+  - a fresh install on a 5 s kitchen clip (`potlid.mp4`): 6 cues, a buried footstep and a stray double-clink fixed; 63 turns, 9.3 min, about US$2.4.
   - a 5 s kung-fu clip: 8 cues, a whoosh 183 ms late and clipping fixed;
   - a 5 s kitchen clip: 6 cues, a buried footstep and a stray double-clink fixed.
 
