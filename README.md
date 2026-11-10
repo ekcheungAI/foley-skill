@@ -37,8 +37,6 @@ You get `myclip-sfx.mp4` (picture untouched) and `foley/report.md`: every cue, e
 - Tested 2026-11-10 with Claude Code 2.1 on macOS (headless `claude -p`, earshot via its CLI):
   - a 5 s kung-fu clip: 8 cues, a whoosh 183 ms late and clipping fixed; 46 turns, 9.3 min, about US$2.0 of usage;
   - a fresh install on a 5 s kitchen clip (`potlid.mp4`): 6 cues, a buried footstep and a stray double-clink fixed; 63 turns, 9.3 min, about US$2.4.
-  - a 5 s kung-fu clip: 8 cues, a whoosh 183 ms late and clipping fixed;
-  - a 5 s kitchen clip: 6 cues, a buried footstep and a stray double-clink fixed.
 
 ## Credits
 - earshot by Leon Lin (MIT): https://github.com/Leonxlnx/earshot
